@@ -10,7 +10,6 @@ for carpeta in carpeta_data.iterdir():
     if carpeta.name == "__MACOSX":
         continue
 
-    print(carpeta)
     for estado in carpeta.iterdir():
         if estado.name == ".DS_Store":
             continue
