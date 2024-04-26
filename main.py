@@ -30,3 +30,4 @@ train_df = pd.DataFrame(train, columns=["phrase", "sentiment"])
 
 train_df.to_csv("train_dataset.csv", index=False)
 test_df.to_csv("test_dataset.csv", index=False)
+
